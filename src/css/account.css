@@ -1,0 +1,30 @@
+#logoutWindow {
+	color: #292929;
+	width: 516px;
+	height: auto;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+#profileNumber {
+	font-size: 30px;
+	width: 100%;
+	text-align: center;
+}
+
+#profileNumber span {
+	background-color: lightgray;
+	color: transparent;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+#profileNumber span:hover {
+	background-color: gray;
+}
+
+#profileNumber span.visible {
+	background-color: transparent !important;
+	color: black;
+	cursor: auto !important;
+}

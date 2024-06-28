@@ -1,0 +1,10 @@
+{
+	"ready": true,
+	"version": "0.0.5",
+	"policyVersion": "0.0.2",
+	"LINKS": {
+		"main": "http://moomoowarrior.mooo.com",
+		"backend": "https://moomoowarriorbackend-moomoowarrior.koyeb.app",
+		"discord": "https://discord.gg/uxMzsK2a6u"
+	}
+}
