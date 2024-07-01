@@ -1,5 +1,16 @@
 Changelog
 
+[v0.0.7] - 2024-07-01
+> Added Hot Potato Mode
+> Added Jailbreak Mode
+> Added Potato Hat (for Hot Potato Mode)
+> Added Police Cap (for Jailbreak Mode)
+> Bug Fixes:
+- Fixed a bug with the grapple gun where the player couldn't pull another player
+- Fixed the tribe UI issue when joining another room right after leaving a room
+- Fixed the player auto-attack issue when clicking the equip and unequip buttons too quickly
+- Fixed the issue where hotkeys couldn't be changed in the settings
+
 [v0.0.6] - 2024-06-26
 > Added Free-for-All (FFA) Mode and Team Deathmatch Mode
 > Added a feature allowing players to choose whether to trigger mouse movements through the UI
