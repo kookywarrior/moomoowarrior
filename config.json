@@ -50,7 +50,7 @@
 	},
 	"modes": {
 		"bigRoom": ["Normal", "Sandbox"],
-		"smallRoom": ["FFA", "Team Deathmatch"]
+		"smallRoom": ["FFA", "Team Deathmatch", "Hot Potato", "Jailbreak"]
 	},
 	"commands": [
 		{
@@ -392,7 +392,9 @@
 		{ "name": "Samurai Armor", "desc": "increases attack speed and fire rate", "id": 11, "price": 12000, "scale": 120 },
 		{ "name": "Dark Knight", "desc": "restores health when you deal damage", "id": 12, "price": 12000, "scale": 120 },
 		{ "name": "Tank Gear", "desc": "increases damage to buildings but reduces movement speed", "id": 13, "price": 15000, "scale": 120 },
-		{ "name": "Assassin Gear", "desc": "Goes invisible when not moving. Can't eat. Increases movement speed", "id": 14, "price": 20000, "scale": 120 }
+		{ "name": "Assassin Gear", "desc": "Goes invisible when not moving. Can't eat. Increases movement speed", "id": 14, "price": 20000, "scale": 120 },
+		{ "name": "Potato Hat", "desc": "", "id": 15, "price": 0, "scale": 120, "dontSell": true },
+		{ "name": "Police Cap", "desc": "", "id": 16, "price": 0, "scale": 120, "dontSell": true }
 	],
 	"accessories": [
 		{ "name": "Monkey Tail", "desc": "Super speed but reduced damage", "id": 0, "price": 3000, "scale": 97, "xOff": 25 },
