@@ -1,0 +1,79 @@
+#ruleContainer .container {
+	display: flex !important;
+}
+
+#ruleWindow {
+	color: #292929;
+	width: 516px;
+	height: 500px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.ruleTitle {
+	font-size: 25px;
+	margin-bottom: 5px !important;
+	display: block;
+}
+
+.ruleTitle input {
+	display: none;
+}
+
+.ruleTitle::before {
+	content: "+ ";
+}
+
+.ruleTitle:has(input:checked)::before {
+	content: "- ";
+}
+
+.collapsable {
+	display: none;
+}
+
+.collapsable > * {
+	margin-bottom: 5px !important;
+	display: flex;
+	gap: 5px;
+}
+
+.collapsable > *:has(input:disabled) {
+	pointer-events: none;
+}
+
+.collapsable > * > input:disabled {
+	filter: none;
+}
+
+.collapsable > * > input:disabled:checked {
+	filter: invert(100%) hue-rotate(18deg) brightness(5);
+}
+
+.collapsable > * > span {
+	text-transform: capitalize;
+}
+
+.ruleTitle:has(input:checked) + .collapsable {
+	display: block;
+}
+
+#selectRule {
+	display: block;
+	width: 300px;
+	height: 30px;
+	margin: auto;
+    padding: 10px;
+    box-sizing: content-box;
+}
+
+#ruleNameInput {
+	border: none;
+	outline: none;
+	background-color: #e5e3e3;
+	color: #4a4a4a;
+	width: 300px;
+	cursor: text;
+    margin: auto;
+    display: block;
+}

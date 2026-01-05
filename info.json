@@ -1,0 +1,9 @@
+{
+	"ready": true,
+	"version": "0.1.3",
+	"LINKS": {
+		"backend": "https://moomoowarrior.onrender.com",
+		"backendWS": "wss://moomoowarrior.onrender.com",
+		"discord": "https://discord.gg/uxMzsK2a6u"
+	}
+}
